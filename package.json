@@ -1,0 +1,30 @@
+{
+  "name": "cloudflare-firewall-automation",
+  "version": "1.0.0",
+  "description": "A tool that helps manage edge-level firewall events, and helps visualize and automate responses to these events.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WuksGG/CloudFlare-Firewall-Automation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WuksGG/CloudFlare-Firewall-Automation/issues"
+  },
+  "homepage": "https://github.com/WuksGG/CloudFlare-Firewall-Automation#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "node-cron": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
+  }
+}
