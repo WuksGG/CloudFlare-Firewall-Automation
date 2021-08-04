@@ -1,3 +1,3 @@
 module.exports = () => {
-  console.log('test');
+  process.stdout.write('DNS Sync\n');
 };

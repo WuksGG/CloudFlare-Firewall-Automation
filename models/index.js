@@ -1,7 +1,7 @@
-const cloudFlare = require('./cloudflare');
-const dnsSync = require('./dns-sync');
+const CloudFlare = require('./cloudflare');
+const DNSsync = require('./dns-sync');
 
 module.exports = {
-  cloudFlare,
-  dnsSync,
+  CloudFlare,
+  DNSsync,
 };
